@@ -15,14 +15,15 @@ LABEL maintainer="UC San Diego ITS/ETS <ets-consult@ucsd.edu>"
 
 # 2) change to root to install packages
 USER root
-
-RUN	apt-get install htop
+RUN apt-get update && apt-get -y install htop dos2unix aria2 nmap traceroute
 
 # 3) install packages
-RUN pip install --no-cache-dir networkx scipy python-louvain
+RUN pip install --no-cache-dir networkx scipy python-louvain babypandas
+RUN conda install --yes geopandas
 
 # 4) change back to notebook user
 COPY /run_jupyter.sh /
+RUN chmod 755 /run_jupyter.sh
 USER $NB_UID
 
 # Override command to disable running jupyter notebook at launch
