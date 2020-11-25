@@ -1,3 +1,9 @@
 {
-    "dockerhub-id": "ucsdets/dsc180a-genetics:fa20",
+    "config": ["/config/data-params.json", "/config/submission-methodology.json", "submission-methodology.json"],  
+    "build": "run.py", 
+    "test_data": ["/test/test_data"],
+    "test_kallisto": ["/test/test_kallisto"],
+    "library": ["src"], 
+    "notebook": ["/notebooks/HTSeq.ipynb"],
+    "targets": ["subset", "fastqc", "kallisto", "test"] 
 }
