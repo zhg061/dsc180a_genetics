@@ -1,9 +1,0 @@
-{
-	"n_targets": 78751,
-	"n_bootstraps": 100,
-	"n_processed": 25,
-	"kallisto_version": "0.42.4",
-	"index_version": 10,
-	"start_time": "Mon Nov 23 23:45:05 2020",
-	"call": "/opt/kallisto_linux-v0.42.4/kallisto quant -i /datasets/srp073813/reference/kallisto_transcripts.idx -o /datasets/home/36/036/zhg061/dsc180a_genetics/test/test_kallisto -b 100 /datasets/home/36/036/zhg061/dsc180a_genetics/test/test_data/m7_1.fastq.gz /datasets/home/36/036/zhg061/dsc180a_genetics/test/test_data/m7_2.fastq.gz"
-}
