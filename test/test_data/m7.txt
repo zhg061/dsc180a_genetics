@@ -1,1 +1,0 @@
-test_data is the folder for test data and FastQC report for test data
