@@ -1,1 +1,1 @@
-test_kallisto is the folder for kallisto result
+test_kallisto is the folder for test data's kallisto result
