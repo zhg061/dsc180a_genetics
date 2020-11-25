@@ -1,0 +1,1 @@
+test_kallisto is the folder for test data's kallisto result
