@@ -1,0 +1,8 @@
+{
+    "raw_data_path" : "/datasets/srp073813/", 
+    "reference_path": "/datasets/srp073813/reference",
+    "test_data_path" : "~/dsc180a_genetics/test/test_data/",
+    "fastqc_tool": "/opt/FastQC/fastqc",
+    "kallisto_tool": "/opt/kallisto_linux-v0.42.4",
+    "kallisto_path": "~/dsc180a_genetics/test/test_kallisto"
+}
